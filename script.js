@@ -3,17 +3,34 @@
 // var a = 12;
 // let a = 13;
 
-{
-    var b = 45;   // ye print kar raha hai
-}
+// {
+//     var b = 45;   // ye print kar raha hai
+// }
 
-console.log(b)  
+// console.log(b)  
 
 {
-    let c = 65;   /*script.js:16 Uncaught ReferenceError: c is not defined
+    /*let c = 65;   script.js:16 Uncaught ReferenceError: c is not defined
     at script.js:16:13 yeh error dega*/
 }
 
-console.log(c)   // console me print karwata hai
+// console.log(c)   // console me print karwata hai
 
-// console.info("Hello world")   kuch kuch browser me i sign aajata hai
+console.info("Hello world")   //kuch kuch browser me i sign aajata hai
+
+console.error("eroor dikhane ke liye")
+
+console.warn("Warning dikhane ke liye")
+
+// console.table({"Name":"Ankit"})
+console.table({Name:"Ankit"})
+
+let nm = prompt("what is your name")
+
+console.log(nm)
+
+
+document.writeln("this is string")
+
+let intro = "I am ankit"
+console.log(intro.slice(4,6))
