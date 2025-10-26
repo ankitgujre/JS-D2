@@ -48,3 +48,6 @@ console.log("Hello bhai kese ho".replaceAll('h','g')) // sare ko change karne ke
 
 console.log("sdkdjfdkdfjn".includes("h"))  // h exists krta hai ya nahi
 
+// Statement and expressions
+
+// Esa code jo fixed answer dede vo statement
